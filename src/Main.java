@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Enter name now!");
         Scanner s = new Scanner(System.in);
         String name = s.nextLine();
-        System.out.println("Hi," + name + "!");
+        System.out.println("Hi," + name + ".");
         File f = new File("Class.txt");
         s = new Scanner(f);
         String course = s.nextLine();
